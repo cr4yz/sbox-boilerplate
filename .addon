@@ -2,7 +2,7 @@
     "name": "boilerplate",
     "version": "",
     "sharedassets": "*.*",
-	"icon": "",
+    "icon": "https://github.com/cr4yz/sbox-boilerplate/blob/main/icon.jpg?raw=true",
     
     "depends": 
     [
