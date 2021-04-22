@@ -2,6 +2,7 @@
     "name": "boilerplate",
     "version": "",
     "sharedassets": "*.*",
+	"icon": "",
     
     "depends": 
     [
