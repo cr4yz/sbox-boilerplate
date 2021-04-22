@@ -1,0 +1,26 @@
+{
+    "name": "boilerplate",
+    "version": "",
+    "sharedassets": "*.*",
+    
+    "depends": 
+    [
+        "base",
+        "citizen" // Optional if you already have a model and animations, etc.
+    ],
+
+    //
+    // Addons can contain multiple addons, describe them here
+    //
+    "gamemodes":
+    [
+        {
+            // These will show in the console when you load into the game.
+            // They will not show on the gamemode list! To do that make an organization
+            // and fill the proper information on gamemode creation.
+            "name": "boilerplate",
+            "title": "Boilerplate",
+            "description": "A boilerplate for S&box addons"
+        }
+    ]
+}
