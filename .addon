@@ -2,7 +2,6 @@
     "name": "boilerplate",
     "version": "",
     "sharedassets": "*.*",
-    "icon": "https://github.com/cr4yz/sbox-boilerplate/blob/main/icon.jpg?raw=true",
     
     "depends": 
     [
@@ -21,7 +20,8 @@
             // and fill the proper information on gamemode creation.
             "name": "boilerplate",
             "title": "Boilerplate",
-            "description": "A boilerplate for S&box addons"
+            "description": "A boilerplate for S&box addons",
+			"icon": "https://github.com/cr4yz/sbox-boilerplate/blob/main/icon.jpg?raw=true"
         }
     ]
 }
