@@ -5,10 +5,13 @@ A boilerplate for kickstarting your S&amp;box addon
 
 There are a few steps to take to turn this boilerplate into your own addon.
 
+First, download this repository and place it inside a new folder inside your `/{steam}/sbox/addons/` folder.  For example, `/{steam}/sbox/addons/my-gamemode/{boilerplate files}`
+
 ### .addon
+
 This file contains information about the addon, it must be modified to suit your addon.  In the future .addon files might no longer be needed, but for now we have to make sure to update them for each individual gamemode.
 
-* name - your addon name
+* name - your addon name (alphanumeric with no spaces)
 * version - your addon version
 * sharedassets - ??
 * depends - an array of other addons that your addon will load first and have access to.  For example, `base` includes a basic player and movement controller.
@@ -22,10 +25,10 @@ This file contains information about the addon, it must be modified to suit your
 Here is an example of a bare minimum .addon, you might want to do something like this if your addon is just a map.
 
 ```
-{ "name": "boilerplate" }
+{ "name": "my-gamemode" }
 ```
 
 ### BoilerplateGame.cs
 This is the script that initializes your gamemode.
-1. Rename the file, namespace, class, and constructor to suit your addon, i.e. `DeathrunGame.cs`
+1. Rename the file, namespace, class, and constructor to suit your addon, i.e. `MyGamemode.cs`
 2. Edit this line: `[Library("boilerplate", Title = "Boilerplate Addon")]`
