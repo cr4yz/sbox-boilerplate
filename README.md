@@ -28,6 +28,10 @@ Here is an example of a bare minimum .addon, you might want to do something like
 { "name": "my-gamemode" }
 ```
 
+### Cleaning up
+
+If you don't need any of the content folders (materials, models, textures, etc), feel free to delete them.  If your addon is just a map, all you need is the `maps` folder.
+
 ### BoilerplateGame.cs
 This is the script that initializes your gamemode.
 1. Rename the file, namespace, class, and constructor to suit your addon, i.e. `MyGamemode.cs`
